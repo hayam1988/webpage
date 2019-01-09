@@ -1,0 +1,99 @@
+  
+body {
+  background-image: url("../images/brick3.jpg");
+  background-color: #cccccc;
+} 
+
+h1 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 200%;
+margin-bottom: 10px; 
+font-family: Times;
+color :white;
+}
+h2 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 100%;
+margin-bottom: 10px; 
+font-family: Times;
+color :white;
+}
+
+body, html {
+    height: 43%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/lines.png");
+
+  /* Set a specific height */
+  height: 300%;
+  top: .1%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2110px 850px;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  border: 9px solid white;
+  position: absolute;
+  top: 69%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}  
+
+
+a.button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+a.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a.button:hover {
+  background-color: #7f6367 ; /* red */
+  color: white;
+}
+
+
+img {
+
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5.9px; /* Some padding */
+  width: 7.46%; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 3px 1px rgba(255, 0, 0, 0.9);
+}

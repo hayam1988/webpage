@@ -1,0 +1,226 @@
+
+body {
+  background-image: url("../images/bg.jpg");
+
+} 
+
+h1 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 200%;
+margin-bottom: 10px; 
+font-family: Times;
+color :white;
+}
+
+h2 
+{
+margin-top: 9px; 
+font-weight: bold;
+margin-left:10px; 
+font-size: 400%;
+margin-bottom: 10px; 
+font-family: Times;
+color : white;
+}
+audio.right
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h3 
+{
+margin-top: 9px; 
+font-weight: bold;
+margin-left:50px; 
+font-size: 200%;
+margin-bottom: 10px; 
+font-family: Times;
+color : white; 
+}
+
+ nav 
+{
+display:block;
+float:left;
+width:700px;
+height:1330px;
+} 
+
+img {
+  border-radius: 60%;
+
+} 
+
+img:hover {
+	
+  perspective: 1000px;
+  -webkit-transform: rotateY(180deg); /* Safari */
+  transform: rotateY(360deg);
+  transition: transform 3.8s;
+  transform-style: preserve-3d;
+
+} 
+a.button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+a.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a.button:hover {
+  background-color: #009999; /* Green */
+  color: white;
+  
+}
+
+.class {
+    /* base element declaration */
+}
+.class-out {
+   animation-name: out;
+   animation-duration:3s;
+
+}
+.class-over {
+   animation-name: in;
+   animation-duration:5s;
+   animation-iteration-count:infinite;
+}
+@keyframes in {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes out {
+    from {
+        transform: rotateZ(360deg);
+    }
+    to {
+        transform: rotateZ(0deg);
+    }
+}  
+
+body, html {
+  height: 40%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("../images/piper39.png");
+
+  /* Add the blur effect */
+  filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+
+  /* Full height */
+  height: 500%; 
+   
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1800px 650px;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  border-radius: 25px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  font-size: 150%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+} 
+
+article 	
+{	
+
+  /* The image used */
+  background-image: url("../images/bgr2.png");
+
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+   
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1000px 650px;
+}
+
+.ar-text {
+  background-color: rgb(97,69,73); /* Fallback color */
+  background-color: rgba(97,69,73, 0.8); /* Black w/opacity/see-through */
+  color: black;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  font-size: 140%;
+  top: 175%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  padding: 20px;
+  text-align: left;
+} 
+
+ aside 
+{
+display:block;
+float:right;
+width:650px;
+height:1330px;
+} 
+
+footer.center
+{
+display:block;
+float:right;
+width:900px;
+height:900px;
+}
+
+
+	.pos
+	{
+		position:relative;
+		top: 5px;
+		right: 5px;
+		z-index: 1;
+	}
+	
+	

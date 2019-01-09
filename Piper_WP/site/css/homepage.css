@@ -1,0 +1,269 @@
+
+body {
+  background-image: url("../images/bgr2.jpg");
+  background-color: #cccccc;
+} 
+
+h1 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 150%;
+margin-bottom: 10px; 
+font-family: Times;
+color :white;
+}
+
+h2 
+{
+margin-top: 9px; 
+font-weight: bold;
+margin-left:125px; 
+font-size: 400%;
+margin-bottom: 10px; 
+font-family: Times;
+color : white;
+}
+audio.right
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h3
+{
+margin-top: 9px; 
+font-weight: bold;
+margin-left:125px; 
+font-size: 400%;
+margin-bottom: 10px; 
+font-family: Times;
+color : #eb0000;
+}
+
+h4
+{
+margin-top: 9px; 
+font-weight: bold;
+margin-left:10px; 
+font-size: 600%;
+margin-bottom: 5px; 
+font-family: Times;
+color : white;
+ border: 5px solid #f1f1f1;
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+
+}
+
+nav 
+{
+
+display:block;
+float:right;
+width:800px;
+height:1330px;
+}
+body, html {
+    height: 43%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/piper4.png");
+
+  /* Set a specific height */
+  height: 500%;
+  top: .1%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1980px 850px;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+} 
+ 
+body 
+{
+margin:10px;
+background-color: black;
+}
+
+article 	
+{	
+
+  /* The image used */
+  background-image: url("../images/bgr2.png");
+
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+   
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1900px 650px;
+}
+
+.ar-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  font-size: 140%;
+  top: 170%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+} 
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+} 
+.container {
+  position: relative; 
+  max-width: 900px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 95%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+a.button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+a.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a.button:hover {
+  background-color: #ba2f0d; /* red */
+  color: white;
+}
+
+
+.flip-box {
+  background-color: transparent;
+  width: 600px;
+  height: 575px;
+  border: 0px; 
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left-side;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-image: ;
+  color: white;
+  text-align: left;
+  transform: rotateY(180deg);
+} 
+footer.center
+{
+display:block;
+float:right;
+width:900px;
+height:900px;
+}
+
+
+/* Hover mouse over picture and switch picture<not used> */
+.imgBox
+{
+	
+	background: url("../images/piper7.png") no-repeat;
+}
+.imgBox:hover {
+
+	background: url("../images/piper10.png") no-repeat;
+	}
+
+} 
+
